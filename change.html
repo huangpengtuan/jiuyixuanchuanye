@@ -1,0 +1,158 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html" />
+<!-- 指定以最新的IE版本模式来显示网页 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 针对360浏览器的内核调用,强制调用极速模式 -->
+<meta name="renderer" content="webkit" />
+<!-- ico文件 -->
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<!--[if lt IE 10]>
+<meta name="renderer" content="ie-stand" />
+<![endif]-->
+<!--[if !IE]>
+<meta name="renderer" content="ie-stand" />
+<!<![endif]-->
+<!--[if lt IE 9]>
+      <script language="javascript" type="text/javascript" src="js/html5shiv.js"></script>
+<![endif]-->
+<!-- 确保设备能正常显示响应式页面 -->
+<!-- 告诉webkit内核浏览器初始缩放比例为1 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- 判断浏览器版本.IE8以下版本,bootstrap支持不了.加个提示 -->
+<!--[if IE]>      
+        <!--[if IE 6]>
+            <div class="ie"></div>
+        <![endif]-->
+  <!-- 判断浏览器版本IE6以下版本 -->
+  <!--[if lt IE 6]> 
+             <div class="ie"></div>
+        <![endif]-->
+  <!--[if IE 7]>
+             <div class="ie"></div>
+        <![endif]-->
+<![endif]-->
+<!-- 百度等搜索,会把description显示在搜索结果里面.这个地方非常总要.但要注意不要超过150字符 -->
+<meta name="description" content="百度等搜索,会把description显示在搜索结果里面.这个地方非常总要.但要注意不要超过150字符">
+<!-- 关于文档的关键字标签 -->
+<meta name="keywords" content="关于文档的关键字标">
+<meta name="author" content="lijiancong,1430004183@qq.com"/>
+<meta name="copyright" content="globalexibit"/>
+<title>酒易网置换流程</title>
+<!-- 更换第三方图标库,Font Awesome <i class="fa fa-medium">-->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/jquery.fullPage.css">
+</head>
+<body>
+<header class="top oTop">
+  <nav>
+    <div class="nav-content clearfix">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="img-responsive">
+        </a>        
+      </div>
+      <div class="nav-btn visible-xs" id="nav-btn">
+        <img src="images/nav-btn.png" alt="" class="img-responsive">
+      </div>
+      <div class="nav-bar" id="nav-bar">        
+        <ul>
+          <li class="nav-list"><a href="index.html">首页</a></li>
+          <li class="nav-list"><a href="mall.html">商城介绍</a>
+          </li>
+          <li class="nav-list"><a href="wine.html">酒品介绍</a></li>
+          <li class="nav-list active"><a href="change.html">置换流程</a></li>
+          <li class="nav-list"><a href="download.html">招商栏</a></li>
+          <li class="nav-list"><a href="case.html">案例展示</a></li>
+        </ul>        
+        
+      </div>
+    </div>    
+  </nav>   
+</header>
+<div id="dowebok">
+    <div class="section change">
+        <div class="main-content wine-content">
+            <section>
+              <div class="title">
+                <p>置换流程</p>
+              </div>
+              <div class="box">        
+                <div class="info clearfix">
+                  <div class="info-img info-img-1 ">
+                    <img src="images/wine.png" class="img-responsive" alt="">
+                  </div>
+                  <div class="info-text">
+                    <h3>买酒送同等价值的物品</h3>
+                    <p>消费者购买若干元的茅台品牌酒，赠送市场上同等价值的品牌商品。</p>
+                    <p>举例：消费者购买6600元的茅台品牌酒，赠送ipone6s一台。</p>
+                    <img src="images/pro_1.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="change-btn hidden-xs">
+                  <img src="images/sword.png" class="img-responsive" alt="">
+                </div>
+              </div>
+            </section>
+        </div>
+    </div>
+    <div class="section change">
+        <div class="main-content wine-content">
+            <section>
+              <div class="title">
+                <p>置换流程</p>
+              </div>
+              <div class="box">        
+                <div class="info clearfix">
+                  <div class="info-img">
+                    <img src="images/pro_2.png" class="img-responsive" alt="">
+                  </div>
+                  <div class="info-text no_bg">
+                    <h3>以酒换物</h3>
+                    <p>消费者可以消费掉自己购买的茅台酒，也可以将购买所得的6千的茅台酒再通过酒易网按照一定比例酒加现金置换价值对等的所需商品和服务（数码产品、房产、家用电器、汽车、高端服装、奢侈品等等）。</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </div>
+
+        <footer>
+          <p>技术支持：深圳金合治科技有限公司</p>
+          <p>Copyright:©2013-2015 globalexibit</p>
+        </footer>
+    </div>
+
+    
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script>
+$(function(){
+    $('#dowebok').fullpage({
+        sectionsColor : ['rgba(240, 240, 240, 0.7)','rgba(240, 240, 240, 0.7)'],
+        navigation:true,
+        navigationColor:'#E84C3D'
+    });
+
+    $(window).resize(function(){
+        autoScrolling();
+    });
+    // function autoScrolling(){
+    //     var $ww = $(window).width();
+    //     if($ww < 360){
+    //         $.fn.fullpage.setAutoScrolling(false);
+    //     } else {
+    //         $.fn.fullpage.setAutoScrolling(true);
+    //     }
+    // }
+    autoScrolling();
+});
+</script>
+
+</body>
+</html>
